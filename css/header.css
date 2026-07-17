@@ -1,0 +1,119 @@
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header > .container {
+display: flex;
+align-items: center;
+}
+
+.header-nav {
+  margin-right: auto;
+  margin-left: 76px;
+
+}
+
+.header-nav-list {
+   display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+}
+
+
+.header-nav-item {
+}
+
+.header-link {
+  position: relative;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #2e2f42;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+
+  
+
+}
+
+.header-link.active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+
+  border-radius: 2px;
+  height: 4px;
+  width: 100%;
+  background-color:  #404BBF;
+
+}
+
+.header-link.active,
+.header-link:focus,
+.header-link:hover{
+color: #404BBF;
+}
+
+
+
+.header-address {
+  font-style: normal;
+  color: #434455;
+}
+.header-address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  
+}
+.header-address-item {
+
+}
+
+
+.address-mail,
+.address-tel {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: #434455;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+
+}
+
+
+
+.address-mail:hover {
+color: #404BBF;
+}
+
+.address-mail:focus {
+color: #404BBF;
+}
+
+
+
+.address-tel:hover {
+color: #404BBF;
+}
+
+.address-tel:focus {
+color: #404BBF;
+}
+
+
+
+
+
+
+
