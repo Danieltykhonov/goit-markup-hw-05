@@ -97,20 +97,23 @@ margin-bottom: 16px;
 }
 
 .footer-modal-input {
-  min-width:264px;
-  height:40px;
+  min-width: 264px;
+  height: 40px;
   padding: 8px 16px;
 
+  font-weight: 400;
   font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 
   background: #2e2f42;
   color: #fff;
   outline: none;
 
   border: 1px solid #fff;
-   border-radius: 4px;
-   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-modal-input:focus{
